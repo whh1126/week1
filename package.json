@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/whh1126/week1/issues"
   },
-  "homepage": "https://github.com/whh1126/week1#readme"
+  "homepage": "https://github.com/whh1126/week1#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
 }
