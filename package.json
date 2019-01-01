@@ -1,23 +1,29 @@
 {
-  "name": "week1",
-  "version": "1.0.0",
-  "description": "week1",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/whh1126/week1.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/whh1126/week1/issues"
-  },
-  "homepage": "https://github.com/whh1126/week1#readme",
-  "dependencies": {
-    "gulp": "^4.0.0"
-  }
+    "name": "week1",
+    "version": "1.0.0",
+    "description": "week1",
+    "main": "index.js",
+    "scripts": {
+        "dev": "gulp dev",
+        "bulid": "gulp bulid"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/whh1126/week1.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/whh1126/week1/issues"
+    },
+    "homepage": "https://github.com/whh1126/week1#readme",
+    "dependencies": {
+        "gulp": "^4.0.0",
+        "gulp-babel": "^7.0.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0"
+    }
 }

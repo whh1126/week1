@@ -1,0 +1,1 @@
+"use strict";$.ajax({url:"api/list",dataType:"json",success:function(a){var t="";$.each(a.data,function(a,n){t+="\n            <h2>"+n.title+"</h2>\n            <p>"+n.cont+"</p>\n            <span>"+n.time+"</span>\n           ",$("#last").appendTo(t)})}});
